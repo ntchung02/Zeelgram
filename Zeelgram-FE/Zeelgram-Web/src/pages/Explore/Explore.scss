@@ -1,0 +1,31 @@
+.explore-page {
+    padding: 20px;
+  }
+  
+  .explore-header {
+    margin-bottom: 20px;
+  }
+  
+  .explore-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .post-link {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .post-link:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  
